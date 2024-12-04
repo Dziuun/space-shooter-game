@@ -2,13 +2,16 @@
   "name": "space-shoooters",
   "version": "0.1.0",
   "description": "Simple space shooter game created for learning purposes.",
-  "main": "index.html",
+  "type": "module",
+  "source": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "Kamil Dziobek || Dziun",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "parcel": "^2.13.2"
   }
 }
