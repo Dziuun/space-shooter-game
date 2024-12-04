@@ -1,0 +1,14 @@
+{
+  "name": "space-shoooters",
+  "version": "0.1.0",
+  "description": "Simple space shooter game created for learning purposes.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kamil Dziobek || Dziun",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.2"
+  }
+}
